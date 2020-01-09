@@ -1,0 +1,14 @@
+Package: BOLD.R
+Type: Package
+Title: A package to interface with the Barcode of Life Database through R
+Version: 0.3.4.1
+Author: Nishan Mudalige, Joris D’hondt
+Maintainer: Nishan Mudalige <mudalign@uoguelph.ca>, Joris D'hondt <jdhondt@uoguelph.ca>
+Description: BOLDR is a package which allows users to access data directly from BOLD into R via current APIs maintained by the BOLD system. Users can access private data by logging in to BOLD using BOLDR, or they can access public data without the need to login. All data accessed using BOLDR is stored in R with a consistent internal structure and this allows the user to employ the suite of functions provided by BOLDR along with existing packages to perform statistical analysis on DNA sequences.
+    BOLDR is a powerful, flexible and convenient platform which provides the user with the capacity to access and analyze large amounts of private and public data on BOLD directly through R.
+License: GNU GPLv3 <https://www.gnu.org/licenses/gpl-3.0.en.html>
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.4.2)
+Imports: jsonlite, gtools, RCurl, ape, plyr, seqinr, getPass
+RoxygenNote: 6.0.1
