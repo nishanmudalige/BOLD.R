@@ -1,3 +1,4 @@
+#' @export
 gen.DNAbin <- function(x.df=NULL, alignment=NULL, labels.headers=c(...)){
   
   if(is.null(x.df)){

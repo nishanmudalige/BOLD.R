@@ -1,3 +1,4 @@
+#' @export
 list.to.dataframe <- function(input.list, specific=NULL){
   if(is.null(specific)){
     x <- data.frame(input.list[[1]], stringsAsFactors=FALSE, check.names=FALSE)

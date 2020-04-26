@@ -1,3 +1,4 @@
+#' @export
 merge.bold <- function(df.x, df.y){
   
   # check if data frame is entered

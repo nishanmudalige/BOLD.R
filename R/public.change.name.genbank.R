@@ -1,3 +1,4 @@
+#' @export
 public.change.name.genbank <- function(df.from.BOLD.public){
   
   entered.df <- df.from.BOLD.public

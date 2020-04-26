@@ -1,3 +1,4 @@
+#' @export
 summary.bold <- function(df){
   
   nuc <- length(nucleotides(df))

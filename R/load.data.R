@@ -1,3 +1,4 @@
+#' @export
 load.data <- function(record.codes, token){
   
   out <- NULL

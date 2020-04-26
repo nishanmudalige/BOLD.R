@@ -1,3 +1,4 @@
+#' @export
 login.bold <- function(username){
   
   password.prompt <- paste("Please enter the password associated with the Bold Systems account for",username,sep=" ")

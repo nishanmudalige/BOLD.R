@@ -1,3 +1,4 @@
+#' @export
 merge.load.and.meta <- function(x.load, x.meta){
   
   out.data <- merge(x.load, x.meta, all = TRUE)

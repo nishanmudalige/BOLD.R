@@ -1,3 +1,4 @@
+#' @export
 allowed.fields <- function(){
   
   allowed <- c( "associated_specimens","associated_taxa",

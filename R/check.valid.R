@@ -1,3 +1,4 @@
+#' @export
 check.valid <-function(df){
   
   # check if data frame is entered

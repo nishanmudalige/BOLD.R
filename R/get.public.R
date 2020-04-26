@@ -1,3 +1,4 @@
+#' @export
 get.public <- function(taxon=NULL, ids=NULL, bin=NULL, container=NULL,
                        institutions=NULL, researchers=NULL, geo=NULL, marker=NULL){
   

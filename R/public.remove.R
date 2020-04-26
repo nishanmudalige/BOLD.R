@@ -1,3 +1,4 @@
+#' @export
 public.remove <- function(df.from.BOLD.public){
   
   remove.columns <- c("markercode", "nucleotides", "genbank_accession")

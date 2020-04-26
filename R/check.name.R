@@ -1,3 +1,4 @@
+#' @export
 check.name <- function(object){
   
   the.name <- deparse(substitute(object))

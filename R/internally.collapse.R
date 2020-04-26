@@ -1,3 +1,4 @@
+#' @export
 internally.collapse <- function(df){
   
   df <- df[order(df$processid), ]

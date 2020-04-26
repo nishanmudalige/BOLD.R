@@ -1,3 +1,4 @@
+#' @export
 dictionary <- function(){
   
   dictionary <- rbind(

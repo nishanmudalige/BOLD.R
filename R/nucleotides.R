@@ -1,3 +1,4 @@
+#' @export
 nucleotides <- function(df){
   
   nucleotides.name <- names(df)[ which(endsWith(names(df), "_nucraw") ) ]

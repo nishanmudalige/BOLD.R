@@ -1,3 +1,4 @@
+#' @export
 fasta.out <- function(x.df, marker.name, output.name = "output",
                       remove.empty = FALSE, nbchar = 60){
   

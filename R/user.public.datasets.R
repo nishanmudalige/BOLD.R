@@ -1,3 +1,4 @@
+#' @export
 user.public.datasets <- function(username, token){
   if( !is.character(username) ){
     warning("Input not valid.")

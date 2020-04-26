@@ -1,3 +1,4 @@
+#' @export
 label.maker <- function(x.df, label.headers=c(...) ){
   
   label.matrix <- x.df

@@ -30,7 +30,3 @@ fasta.out(example.df, "28S-D9-D10_nucraw", output.name = "testfile1")
 
 fasta.out(example.df, "28S-D9-D10_nucraw", output.name = "testfile2", remove.empty=TRUE)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

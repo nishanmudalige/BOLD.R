@@ -1,3 +1,4 @@
+#' @export
 analysis.metadata <- function(record.codes, token){
   
   out <- NULL

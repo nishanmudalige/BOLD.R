@@ -1,3 +1,4 @@
+#' @export
 get.private <- function(record.codes, token){
   
   if(missing(token)){

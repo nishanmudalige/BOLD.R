@@ -1,3 +1,4 @@
+#' @export
 set.field.types <- function(x){
   
   x$associated_specimens <- as.character(x$associated_specimens)

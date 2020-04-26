@@ -1,3 +1,4 @@
+#' @export
 public.add.taxon <- function(df.from.BOLD.public){
   
   taxon.df <- df.from.BOLD.public[,c("phylum","class","order","family","genus","species")]
