@@ -1,9 +1,8 @@
 #' @export
-all.primers <- function(df){
+all.primers = function(df){
   
   
   if( !check.valid(df) ){
-    # check.valid(df)
     return(invisible())
   }
   
