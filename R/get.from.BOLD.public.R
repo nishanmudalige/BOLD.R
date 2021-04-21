@@ -44,7 +44,7 @@ get.from.BOLD.public <- function(taxon=NULL, ids=NULL, bin=NULL, container=NULL,
   }
   
   # specimen, sequence, combined
-  get <- paste("http://v4.boldsystems.org/index.php/API_Public/combined?",
+  get <- paste("https://www.boldsystems.org/index.php/API_Public/combined?",
                "taxon=",taxon,
                "&bin=",bin,
                "&container=",container,

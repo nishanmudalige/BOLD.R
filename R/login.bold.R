@@ -10,8 +10,8 @@ login.bold <- function(username){
   username <- gsub("\\.",	"%2E", username)  # b/c periods are not converted with URLencode
   password <- gsub("\\.",	"%2E", password)  # b/c periods are not converted with URLencode
   
-  # get.string <- paste("http://131.104.63.24:6544/dropin/acl_gettoken?username=",username,"&password=",password, sep="")
-  get.string <- paste("http://131.104.63.24/dropin/acl_gettoken?username=",username,"&password=",password, sep="")
+  # get.string <- paste("https://api.boldsystems.org:6544/dropin/acl_gettoken?username=",username,"&password=",password, sep="")
+  get.string <- paste("https://api.boldsystems.org/dropin/acl_gettoken?username=",username,"&password=",password, sep="")
   
   token.string <- suppressWarnings( read.table(get.string) )
   

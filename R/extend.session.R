@@ -1,7 +1,7 @@
 #' @export
 extend.session <- function(token){
   
-  extend <- suppressWarnings( read.table(paste("http://131.104.63.24:6544/dropin/securitytoken_extend?t=",token,sep="")) )
+  extend <- suppressWarnings( read.table(paste("https://api.boldsystems.org:6544/dropin/securitytoken_extend?t=",token,sep="")) )
   
   if( as.character(extend[,"V1"]) == "true"){
     

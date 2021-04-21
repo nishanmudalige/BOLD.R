@@ -12,11 +12,11 @@ analysis.metadata <- function(record.codes, token){
       
       current <- NULL
       
-      # get.package.id <- fromJSON(paste("http://131.104.63.24:6543/dropin/datastore_load_metadata?recordset_codes=",record.codes[i],"&t=",token, sep=""))
-      # current <- suppressWarnings(fromJSON(paste("http://131.104.63.24:6543/dropin/datastore_retrieve?package_id=",get.package.id$package_id,"&t=",token, sep="")))
+      # get.package.id <- fromJSON(paste(" https://api.boldsystems.org:6543/dropin/datastore_load_metadata?recordset_codes=",record.codes[i],"&t=",token, sep=""))
+      # current <- suppressWarnings(fromJSON(paste(" https://api.boldsystems.org:6543/dropin/datastore_retrieve?package_id=",get.package.id$package_id,"&t=",token, sep="")))
       
-	  get.package.id <- fromJSON(paste("http://131.104.63.24/dropin/datastore_load_metadata?recordset_codes=",record.codes[i],"&t=",token, sep=""))
-      current <- suppressWarnings(fromJSON(paste("http://131.104.63.24/dropin/datastore_retrieve?package_id=",get.package.id$package_id,"&t=",token, sep="")))
+	  get.package.id <- fromJSON(paste(" https://api.boldsystems.org/dropin/datastore_load_metadata?recordset_codes=",record.codes[i],"&t=",token, sep=""))
+      current <- suppressWarnings(fromJSON(paste(" https://api.boldsystems.org/dropin/datastore_retrieve?package_id=",get.package.id$package_id,"&t=",token, sep="")))
 
       
       n <- length(current$processid)
