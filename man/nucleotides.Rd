@@ -21,7 +21,7 @@ nucleotides(df)
 }
 \author{Nishan mudalige}
 \examples{
-example.df <- get.public(container=c("ACAGA, AICC, PRT"))
+example.df <- get.public(container=c("AICC, PRT"))
 nucleotides(example.df)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

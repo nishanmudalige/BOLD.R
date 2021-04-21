@@ -20,7 +20,7 @@ gen.DNAbin(x.df = NULL, alignment = NULL, labels.headers = c(...))
 \note{}
 \seealso{}
 \examples{
-example.df <- get.public(container="CCANN")
+example.df <- get.public(container="PRT")
 
 example.DNAbin <- gen.DNAbin(example.df, alignment="COI-5P_nucraw", labels=c("processid","taxon"))
 }

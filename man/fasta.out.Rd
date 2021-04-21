@@ -24,9 +24,9 @@ fasta.out(x.df, marker.name, output.name = "output", remove.empty = FALSE, nbcha
 
 \seealso{}
 \examples{
-example.df <- get.public(container="CCANN")
+example.df <- get.public(container="PRT")
 
-fasta.out(example.df, "28S-D9-D10_nucraw", output.name = "testfile1")
+fasta.out(example.df, "COI-5P_nucraw", output.name = "testfile1")
 
-fasta.out(example.df, "28S-D9-D10_nucraw", output.name = "testfile2", remove.empty=TRUE)
+fasta.out(example.df, "COI-5P_nucraw", output.name = "testfile2", remove.empty=TRUE)
 }

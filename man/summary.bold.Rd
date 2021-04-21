@@ -19,7 +19,7 @@ summary.bold(df)
 \value{A summary of the items mentioned in the description.}
 \author{Nishan Mudalige}
 \examples{
-example.df <- get.public(container=c("ACAGA, AICC, PRT"))
+example.df <- get.public(container=c("AICC, PRT"))
 summary(example.df)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

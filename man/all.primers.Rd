@@ -18,7 +18,7 @@ created after merging several dataframes with data obtained from BOLD.}
 example.df <- get.public(container="PRT")
 all.primers(example.df)
 
-example.df <- get.public(container=c("PRT","ACAGA","CCANN"))
+example.df <- get.public(container=c("PRT","ACAGA"))
 all.primers(example.df)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
