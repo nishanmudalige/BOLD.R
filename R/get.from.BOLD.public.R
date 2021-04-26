@@ -44,8 +44,8 @@ get.from.BOLD.public <- function(taxon=NULL, ids=NULL, bin=NULL, container=NULL,
   }
   
   # specimen, sequence, combined
-  get <- paste("https://www.boldsystems.org/index.php/API_Public/combined?",
-               "taxon=",taxon,
+  get <- paste("http://www.boldsystems.org/index.php/API_Public/combined?",
+               "&taxon=",taxon,
                "&bin=",bin,
                "&container=",container,
                "&institutions=",institutions,
@@ -54,18 +54,33 @@ get.from.BOLD.public <- function(taxon=NULL, ids=NULL, bin=NULL, container=NULL,
                "&marker=",marker,
                "&format=tsv", sep="")
   
-  # Test whether parameters return an empty file
-  test.empty <- try(read.delim(get, sep='\t', header=TRUE, nrows=1))
-  test.empty <- as.character(test.empty)
-  test.empty <- strsplit(test.empty, " ")
-  if( (test.empty[[1]])[1] == "Error" ){
-    warning("Public data does not exist for all specified value(s) of parameter(s). Please check your input.")
-    # return(invisible())
-    return(NULL)
-  }
+  # ## Test whether parameters return an empty file
+  # test.empty <- try(read.delim(get, sep='\t', header=TRUE, nrows=1))
+  # test.empty <- as.character(test.empty)
+  # test.empty <- strsplit(test.empty, " ")
+  # if( (test.empty[[1]])[1] == "Error" ){
+  #   warning("Public data does not exist for all specified value(s) of parameter(s). Please check your input.")
+  #   # return(invisible())
+  #   return(NULL)
+  # }
+  #
+  # df <- read.table(get, sep="\t", header=TRUE,
+  #                  comment.char="#",
+  #                  na.strings=".", stringsAsFactors=FALSE,
+  #                  quote="", fill=TRUE)
   
-  df <- read.delim(get, sep='\t', header=TRUE)
+  options(timeout=1000)
+  temp.file <- tempfile()
+  download.file(url=get, destfile = temp.file, method="curl")
+  
+  df <- read.table(temp.file,
+                   sep="\t", header=TRUE,
+                   comment.char="#",
+                   na.strings=".", stringsAsFactors=FALSE,
+                   quote="", fill=TRUE)
+  
   df <- data.frame(lapply(df, as.character), stringsAsFactors=FALSE)
   
   return(df)
 }
+
