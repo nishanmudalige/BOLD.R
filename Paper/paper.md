@@ -88,15 +88,15 @@ Another useful function of `BOLD.R` is a the custom merge function which allows 
 
 One of the biggest benefits of utilizing `BOLD.R` is that researchers can download data from BOLD into R and then take advantage of the other libraries in R to create high quality graphical plots for publications. Figures \autoref{fig:barplot}, \autoref{fig:sequence}, \autoref{fig:dendrogram}, \autoref{fig:map and  \autoref{fig:map} are examples of various plots that can be created from data obtained from BOLD using `BOLD.R` along with other existing packages in `R`.
 
-![Example of a bar plot created using public data obtained from BOLD using BOLD.R. The additional package used was `ggplot2`. \label{fig:barplot}](plots\barplot.png){ width=50% }
+![Example of a bar plot created using public data obtained from BOLD using BOLD.R. The additional package used was `ggplot2`. \label{fig:barplot}](barplot.png){ width=50% }
 
-![Example of a dendrogram created using public data obtained from BOLD using BOLD.R. The additional packages used were `ggdendro` and `dendextend`. \label{fig:sequence}](plots\dnasequence.png){ width=50% }
+![Example of a dendrogram created using public data obtained from BOLD using BOLD.R. The additional packages used were `ggdendro` and `dendextend`. \label{fig:sequence}](dnasequence.png){ width=50% }
 
-![Example of a dendrogram created using public data obtained from BOLD using BOLD.R. The additional package used was `ape`. \label{fig:dendrogram}](plots\dendrogram.png){ width=50% }
+![Example of a dendrogram created using public data obtained from BOLD using BOLD.R. The additional package used was `ape`. \label{fig:dendrogram}](dendrogram.png){ width=50% }
 
-![Example of a map created using public data obtained from BOLD using BOLD.R. The additional packages used were `sf` and `mapview`. \label{fig:map}](plots\map.png){ width=50% }
+![Example of a map created using public data obtained from BOLD using BOLD.R. The additional packages used were `sf` and `mapview`. \label{fig:map}](map.png){ width=50% }
 
-![Example of a head map created using public data obtained from BOLD using BOLD.R. The additional packages used were `stringdist` and `gplots`. \label{fig:heatmap}](plots\heatmap.png){ width=50% }
+![Example of a head map created using public data obtained from BOLD using BOLD.R. The additional packages used were `stringdist` and `gplots`. \label{fig:heatmap}](heatmap.png){ width=50% }
 
 
 # References
