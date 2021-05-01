@@ -76,3 +76,9 @@ test_that("Test the 'summary.bold' Function for a project with multiple primers.
   }
 )
 
+
+test_that("Test that the 'gen.DNAbin' function correctly generates a DNAbin with appropriate labels.", {
+  expect_equal( class(gen.DNAbin(example.df1, alignment="COI-5P_nucraw", labels=c("processid","taxon"))), "DNAbin")
+  }
+)
+

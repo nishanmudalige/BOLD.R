@@ -1,5 +1,5 @@
 #' @export
-gen.DNAbin <- function(x.df=NULL, alignment=NULL, labels.headers=c(...)){
+gen.DNAbin <- function(x.df=NULL, alignment=NULL, labels=c(...)){
   
   if(is.null(x.df)){
     warning("Please enter a dataframe")
@@ -13,7 +13,7 @@ gen.DNAbin <- function(x.df=NULL, alignment=NULL, labels.headers=c(...)){
   }
   
   
-  labels <- label.maker(x.df, labels.headers)
+  labels <- label.maker(x.df, labels)
   
   label.maker.warn.test <- tryCatch(label.maker(x.df, labels.headers), error=function(e) e, warning=function(w) w)
   if(is(label.maker.warn.test,"warning")){

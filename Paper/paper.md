@@ -64,10 +64,15 @@ We can perform the following which downloads the data into R.
 
 ```
   > mydata = get.public(container=c("CNIVG", "GMMGM"))
+    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                   Dload  Upload   Total   Spent    Left  Speed
+  100  218k    0  218k    0     0  23940      0 --:--:--  0:00:09 --:--:-- 34001
+    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                   Dload  Upload   Total   Spent    Left  Speed
+  100  295k    0  295k    0     0  22601      0 --:--:--  0:00:13 --:--:-- 47621
   > nucleotides(mydata)
   [1] "COI-5P_nucraw" "28S_nucraw"   
   > summary.bold(mydata)
-                              
   No. of records             443
   No. of unique record codes   2
   No. of duplicate records     0
@@ -81,9 +86,15 @@ We could type the following syntax to merge them while accomodating for the stru
 
 ```
 > dataset1 = get.public(container="CNBPS")
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  562k    0  562k    0     0  34113      0 --:--:--  0:00:16 --:--:-- 42962
 > nrow(dataset1)
 [1] 440
 > dataset2 = get.public(container="CNBPT")
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  224k    0  224k    0     0  34563      0 --:--:--  0:00:06 --:--:-- 57256
 > nrow(dataset2)
 [1] 177
 > merged.data = merge.bold(dataset1, dataset2)
@@ -93,19 +104,17 @@ We could type the following syntax to merge them while accomodating for the stru
 
 # Visualization
 
-One of the biggest benefits of utilizing `BOLD.R` is that researchers can download data from BOLD into R and then take advantage of the other libraries in R to create high quality graphical plots for publications.
+One of the biggest benefits of utilizing `BOLD.R` is that researchers can download data from BOLD into R and then take advantage of the other libraries in R to create high quality graphical plots for publications. Figures \autoref{fig:barplot}, \autoref{fig:sequence}, \autoref{fig:dendrogram}, \autoref{fig:map and  \autoref{fig:map} are examples of various plots that can be created from data obtained from BOLD using `BOLD.R` along with other existing packages in `R`.
 
+![Example of a bar plot created using public data obtained from BOLD using BOLD.R. The additional package used was `ggplot2`. \label{fig:barplot}](plots\barplot.png){ width=50% }
 
-Figures can be included like this:
-![Caption for example figure.\label{fig:example}](figure.png)
-and referenced from text using \autoref{fig:example}.
+![Example of a dendrogram created using public data obtained from BOLD using BOLD.R. The additional packages used were `ggdendro` and `dendextend`. \label{fig:sequence}](plots\dnasequence.png){ width=50% }
 
-Figure sizes can be customized by adding an optional second parameter:
-![Caption for example figure.](figure.png){ width=20% }
+![Example of a dendrogram created using public data obtained from BOLD using BOLD.R. The additional package used was `ape`. \label{fig:dendrogram}](plots\dendrogram.png){ width=50% }
 
-# Acknowledgements
+![Example of a map created using public data obtained from BOLD using BOLD.R. The additional packages used were `sf` and `mapview`. \label{fig:map}](plots\map.png){ width=50% }
 
-We acknowledge contributions from Brigitta Sipocz, Syrtis Major, and Semyeong
-Oh, and support from Kathryn Johnston during the genesis of this project.
+![Example of a head map created using public data obtained from BOLD using BOLD.R. The additional packages used were `stringdist` and `gplot`. \label{fig:heatmap}](plots\heatmap.png){ width=50% }
+
 
 # References

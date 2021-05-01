@@ -11,7 +11,7 @@ gen.DNAbin(x.df = NULL, alignment = NULL, labels.headers = c(...))
 \arguments{
   \item{x.df}{A dataframe with data obtained from BOLD.}
   \item{alignment}{Specify the alignment type.}
-  \item{labels.headers}{The column names of the data frame to use to create the label.}
+  \item{labels}{The column names of the data frame to use to create the label.}
 }
 \details{}
 \value{a DNAbin object.}
