@@ -24,6 +24,4 @@ In order to install BOLD.R directly through R, please type the following into th
 
 For questions, please email nishan [dot] mudalige [dot] 1 [at] ulaval [dot] ca .
 
-For a poster about BOLD.R, please click <u><a href="https://drive.google.com/file/d/1ZxJecayOXMkk4Or81M2j6e0X5NULnfq1/view?usp=sharing" target="_blank">here</a></u>.
-
 This poster won runner up at the <u><a href="http://ammcs.wlu.ca/awards/" target="_blank">Applied Mathematics, Modeling and Computational Science (AMMCS) 2019 conference</a></u>.
