@@ -1,5 +1,7 @@
 # BOLD.R
 
+![CRAN/METACRAN](https://img.shields.io/cran/l/BOLD.R)
+
 An R package to interface with the Barcode of Life Database System (BOLD) using R.
 
 Automatically redirected to this GiHub page from http://boldsystems.org/bold.r.
