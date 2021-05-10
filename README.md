@@ -2,6 +2,8 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/nishanmudalige/BOLD.R)](https://github.com/nishanmudalige/BOLD.R/issues)
 
+https://img.shields.io/github/license/nishanmudalige/BOLD.R
+
 An R package to interface with the Barcode of Life Database System (BOLD) using R.
 
 Automatically redirected to this GiHub page from http://boldsystems.org/bold.r.
