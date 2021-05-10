@@ -2,7 +2,9 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/nishanmudalige/BOLD.R)](https://github.com/nishanmudalige/BOLD.R/issues)
 
-https://img.shields.io/github/license/nishanmudalige/BOLD.R
+[![GitHub license](https://img.shields.io/github/license/nishanmudalige/BOLD.R)](https://github.com/nishanmudalige/BOLD.R/blob/master/LICENSE)
+
+[![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fnishanmudalige%2FBOLD.R%2F)
 
 An R package to interface with the Barcode of Life Database System (BOLD) using R.
 
