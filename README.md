@@ -1,6 +1,6 @@
 # BOLD.R
 
-![CRAN/METACRAN](https://img.shields.io/cran/l/BOLD.R)
+[![GitHub issues](https://img.shields.io/github/issues/nishanmudalige/BOLD.R)](https://github.com/nishanmudalige/BOLD.R/issues)
 
 An R package to interface with the Barcode of Life Database System (BOLD) using R.
 
