@@ -6,7 +6,7 @@ tags:
   - DNA barcoding
   - Metagenomics
 authors:
-  - name: Nishan Mudalige^[nishan.mudalige.1@ulaval.ca]
+  - name: Nishan Mudalige
     orcid: 0000-0003-3981-9868
     affiliation: "1"
 affiliations:

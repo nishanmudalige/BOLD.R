@@ -1,5 +1,12 @@
 # BOLD.R
 
+<!-- badges: start -->
+  [![Codecov test coverage](https://codecov.io/gh/nishanmudalige/BOLD.R/branch/master/graph/badge.svg)](https://codecov.io/gh/nishanmudalige/BOLD.R?branch=master)
+  <!-- badges: end -->
+
+[![codecov](https://codecov.io/gh/nishanmudalige/BOLD.R/branch/master/graph/badge.svg?token=U5SKN4LP53)](https://codecov.io/gh/nishanmudalige/BOLD.R)
+[![Language](https://img.shields.io/badge/Language-R-9cf)](https://img.shields.io/badge/Language-R-9cf) [![GitHub issues](https://img.shields.io/github/issues/nishanmudalige/BOLD.R)](https://github.com/nishanmudalige/BOLD.R/issues) [![GitHub license](https://img.shields.io/github/license/nishanmudalige/BOLD.R)](https://github.com/nishanmudalige/BOLD.R/blob/master/LICENSE) [![Version](https://img.shields.io/badge/version-0.4.0-blue)](https://img.shields.io/badge/version-0.4.0-blue)
+
 An R package to interface with the Barcode of Life Database System (BOLD) using R.
 
 Automatically redirected to this GiHub page from http://boldsystems.org/bold.r.
@@ -23,7 +30,5 @@ In order to install BOLD.R directly through R, please type the following into th
 
 
 For questions, please email nishan [dot] mudalige [dot] 1 [at] ulaval [dot] ca .
-
-For a poster about BOLD.R, please click <u><a href="https://drive.google.com/file/d/1ZxJecayOXMkk4Or81M2j6e0X5NULnfq1/view?usp=sharing" target="_blank">here</a></u>.
 
 This poster won runner up at the <u><a href="http://ammcs.wlu.ca/awards/" target="_blank">Applied Mathematics, Modeling and Computational Science (AMMCS) 2019 conference</a></u>.
