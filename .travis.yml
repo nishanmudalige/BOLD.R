@@ -1,14 +1,7 @@
 language: r
 
-sudo: required
-
-env: _R_CHECK_CRAN_INCOMING_=FALSE
-
 r_packages:
-  - BOLD.R
-
-r_github_packages:
-  - codecov/example-r
+  - covr
 
 after_success:
-  - Rscript -e 'library(BOLD.R)'
+  - Rscript -e 'library(covr); codecov()'
